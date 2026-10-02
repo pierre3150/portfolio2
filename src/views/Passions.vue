@@ -2,16 +2,21 @@
 const channels = [
   {
     ch: '01',
-    name: 'AUTOMOBILE',
-    body: "Projet en cours sur une Nissan 100NX : conversion E85 (ECU Speeduino, pompe et lignes adaptees, sonde flex-fuel) et exploration d'un swap moteur SR20DE. L'objectif final tourne autour de 300ch avec un compresseur mecanique — mais le plan est pense en gains progressifs, pas en un seul gros coup a la fin. Interet plus large pour la culture JDM et la conduite en montagne (touge).",
-  },
-  {
-    ch: '02',
     name: 'SERVEURS & HOMELAB',
     body: "Un cluster Proxmox a plusieurs noeuds fait tourner mes services perso : Jellyfin, Nextcloud, un reverse proxy Nginx Proxy Manager, et un bastion Firefox isole derriere Authelia (SSO). Tout passe par mon propre nom de domaine, pierre-dev.fr — celui-la meme qui sert ce site. C'est aussi la ou j'experimente : conteneurs Docker, IA auto-hebergee, automatisation.",
   },
   {
+    ch: '02',
+    name: 'AUTOMOBILE',
+    body: "Projet en cours sur une Nissan 100NX : conversion E85 et exploration d'un swap moteur SR20DE, avec l'objectif de monter progressivement en puissance. Interet plus large pour la culture JDM et la mecanique en general.",
+  },
+  {
     ch: '03',
+    name: 'TENNIS',
+    body: "Membre actif d'un club de tennis, en club et en competition selon les saisons — une facon de decrocher du clavier.",
+  },
+  {
+    ch: '04',
     name: 'GAMING',
     body: "Je joue sur PC, sous Linux (Pop!_OS) et sur mobile. En ce moment, c'est Wartales qui tourne — un RPG tactique de groupe, exactement le genre de jeu ou la planification compte plus que les reflexes.",
   },

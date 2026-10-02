@@ -67,6 +67,7 @@ const experience = [
         <div class="actions">
           <a class="btn" href="/CV_Pierre_PARAIN.pdf" download>TELECHARGER LE CV</a>
           <a class="btn" href="mailto:pierreparain.pro@gmail.com">CONTACT</a>
+          <a class="btn" href="https://www.linkedin.com/in/pierre-parain" target="_blank" rel="noopener">LINKEDIN</a>
         </div>
       </div>
     </div>
