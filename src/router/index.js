@@ -2,6 +2,7 @@ import { createRouter, createWebHashHistory } from 'vue-router'
 import Home from '../views/Home.vue'
 import Projects from '../views/Projects.vue'
 import Online from '../views/Online.vue'
+import Services from '../views/Services.vue'
 import Passions from '../views/Passions.vue'
 import About from '../views/About.vue'
 import Skills from '../views/Skills.vue'
@@ -18,6 +19,7 @@ const router = createRouter({
     { path: '/', name: 'home', component: Home, meta: { cmd: '~' } },
     { path: '/projects', name: 'projects', component: Projects, meta: { cmd: '~/projects' } },
     { path: '/online', name: 'online', component: Online, meta: { cmd: '~/online' } },
+    { path: '/services', name: 'services', component: Services, meta: { cmd: '~/services' } },
     { path: '/passions', name: 'passions', component: Passions, meta: { cmd: '~/passions' } },
     { path: '/about', name: 'about', component: About, meta: { cmd: '~/about' } },
     { path: '/skills', name: 'skills', component: Skills, meta: { cmd: '~/skills' } },

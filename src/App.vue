@@ -21,6 +21,7 @@ const nav = [
   { to: '/', cmd: 'cd ~', label: 'accueil' },
   { to: '/projects', cmd: 'cd /projects', label: 'projets' },
   { to: '/online', cmd: 'cd /online', label: 'en ligne' },
+  { to: '/services', cmd: 'cd /services', label: 'services' },
   { to: '/passions', cmd: 'cd /passions', label: 'passions' },
   { to: '/about', cmd: 'cd /about', label: 'a propos' },
   { to: '/skills', cmd: 'cd /skills', label: 'competences' },
