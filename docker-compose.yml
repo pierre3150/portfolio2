@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  portfolio:
+    image: ghcr.io/pierre3150/portfolio2:latest
+    container_name: portfolio
+    restart: unless-stopped
+    ports:
+      # NPM tourne dans un autre CT (pas sur cet hote), il doit donc atteindre
+      # ce port via le LAN - meme logique que pour homelab-dashboard.
+      - "8089:80"
